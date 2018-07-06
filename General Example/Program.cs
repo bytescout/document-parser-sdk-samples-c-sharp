@@ -11,9 +11,9 @@
 
 
 using System;
-using ByteScout.InvoiceParser;
+using ByteScout.DocumentParser;
 
-// This example demonstrates invoice data parsing to JSON and YAML formats.
+// This example demonstrates document data parsing to JSON and YAML formats.
 
 namespace GeneralExample
 {
@@ -24,14 +24,14 @@ namespace GeneralExample
             string inputDocument1 = @".\DigitalOcean.pdf";
             string inputDocument2 = @".\AmazonAWS.pdf";
 
-            // Create InvoiceParser instance
-            using (InvoiceParser invoiceParser = new InvoiceParser("demo", "demo"))
+            // Create DocumentParser instance
+            using (DocumentParser documentParser = new DocumentParser("demo", "demo"))
             {
                 Console.WriteLine($"Parsing \"{inputDocument1}\"...");
                 Console.WriteLine();
 
-                // Parse invoice data in JSON format
-                string jsonString = invoiceParser.ParseDocument(inputDocument1, OutputFormat.JSON);
+                // Parse document data in JSON format
+                string jsonString = documentParser.ParseDocument(inputDocument1, OutputFormat.JSON);
                 // Display parsed data in console
                 Console.WriteLine("Parsing results in JSON format:");
                 Console.WriteLine();
@@ -41,8 +41,8 @@ namespace GeneralExample
                 Console.WriteLine($"Parsing \"{inputDocument2}\"...");
                 Console.WriteLine();
 
-                // Parse invoice data in YAML format
-                string yamlString = invoiceParser.ParseDocument(inputDocument2, OutputFormat.YAML);
+                // Parse document data in YAML format
+                string yamlString = documentParser.ParseDocument(inputDocument2, OutputFormat.YAML);
                 // Display parsed data in console
                 Console.WriteLine("Parsing results in YAML format:");
                 Console.WriteLine();
