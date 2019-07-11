@@ -48,7 +48,7 @@
     <None Include="..\..\DigitalOcean.pdf">
       <Link>DigitalOcean.pdf</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    </None>
     <None Include="..\..\AmazonAWS.pdf">
       <Link>AmazonAWS.pdf</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
