@@ -1,6 +1,7 @@
 ## Index of source code examples:
 
 \Create Custom Template
+\Extract line items from tables on multiple pages
 \Parse and Generate HL7 Output
 \Parse Multipage Table
 \Parse Simple Document
