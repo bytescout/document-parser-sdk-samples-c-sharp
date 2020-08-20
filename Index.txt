@@ -8,6 +8,7 @@
 \Parse and Generate HL7 Output
 \Parse Multipage Table
 \Parse Simple Document
+\Parse Typical Invoice
 \Parse with OCR
 \Parsing and reading data from Airline Tickets
 \Parse and Generate HL7 Output\InputData
